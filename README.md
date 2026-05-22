@@ -39,33 +39,27 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 BRK242: Turn your agents into action: Connect tools, APIs, and documents
 
 ### Session Description
 
-*Add Session Description*
+Tired of searching for the right tools for your agents, or watching your context window grow out of control? This breakout introduces a new product category that helps developers choose the right toolset based on an agent's context, use case, and functional boundaries so teams can connect tools efficiently with built-in governance.
 
-### 🏫 Getting started in a guided session
-
-To get started in a guided lab session:
-- <!-- step 1 -->
-- <!-- step 2 -->
-- <!-- step 3 -->
-
-### 🏠 Getting started in your own environment
+### 🚀 Getting started
 
 If you're following these steps at your own pace:
+
 - Clone this repository
 - Set up your development environment
-- <!-- step 3 -->
+- Explore the resources in this README and use the Copilot prompts below to design your own agent integration approach
 
 ### 🧠 Learning Outcomes
 
 By the end of this session, you will be able to:
 
-- <!-- outcome 1 -->
-- <!-- outcome 2 -->
-- <!-- outcome 3 -->
+- Evaluate which tools, APIs, and document sources are best suited for different agent scenarios
+- Design agent boundaries that keep context efficient and reduce unnecessary token usage
+- Apply governance-oriented patterns when connecting agents to external systems and enterprise knowledge
 
 ### 💬 Keep Learning with Copilot
 
@@ -73,15 +67,18 @@ Try these prompts with GitHub Copilot to explore the topics from this session. O
 
 Use these as a starting point — or write your own!
 
-<!-- Prompts will be tailored to this session's content during repo setup. -->
+Try prompts like:
 
-> *Prompts coming soon — check back after the session content is finalized.*
+- "Help me design an agent tool strategy for a customer support scenario using APIs and documents."
+- "Compare when to call an API directly vs. route through a tool abstraction in an agent workflow."
+- "Show me a practical pattern to keep agent context windows small while still grounding on documents."
+- "Generate a governance checklist for agent tool access, data boundaries, and auditing."
 
 ### 💻 Technologies Used
 
-1. <!-- technology 1 -->
-1. <!-- technology 2 -->
-1. <!-- technology 3 -->
+1. [Azure AI Foundry](https://learn.microsoft.com/azure/ai-foundry/)
+1. [Azure AI Foundry Agent Service](https://learn.microsoft.com/azure/ai-foundry/agents/)
+1. [Model Context Protocol (MCP) tools in Azure AI Foundry Agent Service](https://learn.microsoft.com/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
 
 ### 📚 Resources and Next Steps
 
@@ -108,18 +105,20 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+     <td align="center"><a href="https://github.com/ladynaggaga">
+        <img src="https://github.com/ladynaggaga.png" width="100px;" alt="Maria Naggaga"/><br />
+        <sub><b>Maria Naggaga</b></sub></a><br />
+            <a href="https://github.com/ladynaggaga" title="talk">📢</a>
     </td>
+    <td align="center"><a href="https://github.com/jfilcik">
+        <img src="https://github.com/jfilcik.png" width="100px;" alt="Joe Filcik"/><br />
+        <sub><b>Joe Filcik</b></sub></a><br />
+            <a href="https://github.com/jfilcik" title="talk">📢</a>
+    </td>
+
+   
 </tr></table>
 
 ## Contributing
