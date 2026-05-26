@@ -43,7 +43,38 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 ### Session Description
 
-Tired of searching for the right tools for your agents, or watching your context window grow out of control? This breakout introduces a new product category that helps developers choose the right toolset based on an agent's context, use case, and functional boundaries so teams can connect tools efficiently with built-in governance.
+Tired of searching for the right tool(s) for your agents? Seeing your context window constantly blowing out of proportion? We are introducing a new product category that allows developers to choose the right toolset depending upon the agents' context, the use-case and functional boundaries, enabling efficient use of tools, with built-in governance.
+
+Seating for this session is first-come, first-served. Add it to your schedule to plan your day and arrive early to secure a spot
+
+### Turn Your Agents Into Action
+Why: Today, most agents look impressive in demos—but break in production. They rely on bloated prompts, fragile integrations, and struggle with real-world data like PDFs, receipts, or emails. In this session, we’ll shared how to move beyond prompt-based agents to real systems that act. Sharing how to connect agents to tools, automate workflows across runtimes, and handle messy, unstructured data with confidence. 
+
+Problem: Today, most agents look impressive in demos—but break in production. They rely on bloated prompts, fragile integrations, and struggle with real-world data like PDFs, receipts, or emails.
+In this repo, we’ll show how to move beyond prompt-based agents to real systems that act. You’ll learn how to connect agents to tools, across agent runtimes, through single endpoint with toolboxes and how with content understanding you work with unstructed data with confidence.
+### What is a toolbox 
+
+Toolbox bundles everything an agent needs into a reusable package—delivered through one endpoint with a consistent interface, no matter the tool type managed on Foundry.
+What tools types does Toolbox support?
+Toolbox is designed to be tool agnostic. As the   
+
+| Catergory | Tool Type |
+|---|---|
+| Protocol-based | MCP, A2A |
+| API Integration | OpenAPI, Connectors |
+| Agent Instructions | Skills |
+| Built-in tools | Web Search, Code Interpreter, File Search, Azure Search |
+
+### What is a Content understanding 
+Content Understanding is a Foundry tool for turning unstructured, multimodal content into reliable, structured outputs you can automate against.
+
+Content Understanding it takes inputs like documents, images, audio, and video, then:
+
+- Extracts and normalizes content (text, layout, tables, transcription, visual elements)
+- Classifies and segments content when needed
+- Produces schema-based fields (JSON) or markdown output
+- Attaches confidence scores and grounding (where each value came from)
+
 
 ### 🚀 Getting started
 
