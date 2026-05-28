@@ -1,12 +1,6 @@
-# build26-repo-template
-
-Template files will not be tracked by git.
+# Temporary files
 *.bak
 *.tmp
-
-# Source materials folder — contents excluded, README tracked
-_remove-before-publish/*
-!_remove-before-publish/README.md
 
 # OS files
 .DS_Store
