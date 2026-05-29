@@ -39,33 +39,58 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 BRK242: Turn your agents into action: Connect tools, APIs, and documents
 
 ### Session Description
 
-*Add Session Description*
+Tired of searching for the right tool(s) for your agents? Seeing your context window constantly blowing out of proportion? We are introducing a new product category that allows developers to choose the right toolset depending upon the agents' context, the use-case and functional boundaries, enabling efficient use of tools, with built-in governance.
 
-### 🏫 Getting started in a guided session
+Seating for this session is first-come, first-served. Add it to your schedule to plan your day and arrive early to secure a spot
 
-To get started in a guided lab session:
-- <!-- step 1 -->
-- <!-- step 2 -->
-- <!-- step 3 -->
+### Turn Your Agents Into Action
+Why: Today, most agents look impressive in demos—but break in production. They rely on bloated prompts, fragile integrations, and struggle with real-world data like PDFs, receipts, or emails. In this session, we’ll shared how to move beyond prompt-based agents to real systems that act. Sharing how to connect agents to tools, automate workflows across runtimes, and handle messy, unstructured data with confidence. 
 
-### 🏠 Getting started in your own environment
+Problem: Today, most agents look impressive in demos—but break in production. They rely on bloated prompts, fragile integrations, and struggle with real-world data like PDFs, receipts, or emails.
+In this repo, we’ll show how to move beyond prompt-based agents to real systems that act. You’ll learn how to connect agents to tools, across agent runtimes, through single endpoint with toolboxes and how with content understanding you work with unstructed data with confidence.
+### What is a toolbox 
+
+Toolbox bundles everything an agent needs into a reusable package—delivered through one endpoint with a consistent interface, no matter the tool type managed on Foundry.
+What tools types does Toolbox support?
+Toolbox is designed to be tool agnostic. As the   
+
+| Catergory | Tool Type |
+|---|---|
+| Protocol-based | MCP, A2A |
+| API Integration | OpenAPI, Connectors |
+| Agent Instructions | Skills |
+| Built-in tools | Web Search, Code Interpreter, File Search, Azure Search |
+
+### What is a Content understanding 
+Content Understanding is a Foundry tool for turning unstructured, multimodal content into reliable, structured outputs you can automate against.
+
+Content Understanding it takes inputs like documents, images, audio, and video, then:
+
+- Extracts and normalizes content (text, layout, tables, transcription, visual elements)
+- Classifies and segments content when needed
+- Produces schema-based fields (JSON) or markdown output
+- Attaches confidence scores and grounding (where each value came from)
+
+
+### 🚀 Getting started
 
 If you're following these steps at your own pace:
+
 - Clone this repository
 - Set up your development environment
-- <!-- step 3 -->
+- Explore the resources in this README and use the Copilot prompts below to design your own agent integration approach
 
 ### 🧠 Learning Outcomes
 
 By the end of this session, you will be able to:
 
-- <!-- outcome 1 -->
-- <!-- outcome 2 -->
-- <!-- outcome 3 -->
+- Evaluate which tools, APIs, and document sources are best suited for different agent scenarios
+- Design agent boundaries that keep context efficient and reduce unnecessary token usage
+- Apply governance-oriented patterns when connecting agents to external systems and enterprise knowledge
 
 ### 💬 Keep Learning with Copilot
 
@@ -73,15 +98,18 @@ Try these prompts with GitHub Copilot to explore the topics from this session. O
 
 Use these as a starting point — or write your own!
 
-<!-- Prompts will be tailored to this session's content during repo setup. -->
+Try prompts like:
 
-> *Prompts coming soon — check back after the session content is finalized.*
+- "Help me design an agent tool strategy for a customer support scenario using APIs and documents."
+- "Compare when to call an API directly vs. route through a tool abstraction in an agent workflow."
+- "Show me a practical pattern to keep agent context windows small while still grounding on documents."
+- "Generate a governance checklist for agent tool access, data boundaries, and auditing."
 
 ### 💻 Technologies Used
 
-1. <!-- technology 1 -->
-1. <!-- technology 2 -->
-1. <!-- technology 3 -->
+1. [Azure AI Foundry](https://learn.microsoft.com/azure/ai-foundry/)
+1. [Azure AI Foundry Agent Service](https://learn.microsoft.com/azure/ai-foundry/agents/)
+1. [Model Context Protocol (MCP) tools in Azure AI Foundry Agent Service](https://learn.microsoft.com/azure/ai-foundry/agents/how-to/tools/model-context-protocol)
 
 ### 📚 Resources and Next Steps
 
@@ -108,18 +136,20 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+     <td align="center"><a href="https://github.com/ladynaggaga">
+        <img src="https://github.com/ladynaggaga.png" width="100px;" alt="Maria Naggaga"/><br />
+        <sub><b>Maria Naggaga</b></sub></a><br />
+            <a href="https://github.com/ladynaggaga" title="talk">📢</a>
     </td>
+    <td align="center"><a href="https://github.com/jfilcik">
+        <img src="https://github.com/jfilcik.png" width="100px;" alt="Joe Filcik"/><br />
+        <sub><b>Joe Filcik</b></sub></a><br />
+            <a href="https://github.com/jfilcik" title="talk">📢</a>
+    </td>
+
+   
 </tr></table>
 
 ## Contributing
