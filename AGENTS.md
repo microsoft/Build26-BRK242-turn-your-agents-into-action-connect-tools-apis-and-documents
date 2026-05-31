@@ -21,7 +21,6 @@ This file contains instructions and guidelines for AI agents working on this rep
 This repository is a Microsoft Build 2026 session content repository and should:
 - Provide clear, actionable content for session attendees
 - Support self-guided learning for remote/at-home learners
-- Follow the structure established by GUIDANCE.md
 
 ### What NOT to modify without permission:
 - License files (`LICENSE`, `LICENSE-DOCS`, `CODE_OF_CONDUCT.md`)
@@ -45,5 +44,3 @@ When a user reports a problem, asks a question that should be tracked, or wants 
 
 When reviewing open issues at the start of each phase, summarize them and propose actions — this behavior already exists in the Issue Tracking and Commits section of GUIDANCE.md.
 
-### Getting Started
-If this repo still has a `GUIDANCE.md` file, that means setup isn't complete yet. Read it and follow the instructions to prepare the repo for publication.
