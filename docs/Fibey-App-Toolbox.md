@@ -1,4 +1,5 @@
-# Draft Fibey Toolbox
+#  Fibey Toolbox
+[Live example](https://fibey-apps-ui.nicesmoke-dfb4fdf0.westus2.azurecontainerapps.io/)
 
 This sample connects to the **Toolbox** via its **MCP (Model Context Protocol) Streamable HTTP** endpoint. The Toolbox acts as a single unified gateway to multiple operational tools — the agent makes one MCP connection, and the Toolbox dispatches calls to individual tools (inventory, work orders, FoundryIQ, status dashboard) behind the scenes.
 
@@ -13,8 +14,6 @@ React UI → FastAPI Gateway → Field Ops Agent → Foundry Toolbox (MCP) → T
                                     (port 8001)     (port 8002)      (AI Search)
 ```
 
-<!-- TODO: Add screenshot of the activity sidebar showing tool calls -->
-![Activity sidebar](../docs/images/activity-sidebar.png)
 
 ## How It Works
 
@@ -147,8 +146,6 @@ yield {
 
 The agent parses tool arguments to show context-rich details like `Calling get_work_order (work_order_id=WO-1234)`.
 
-<!-- TODO: Add screenshot of streaming activity in the UI -->
-![Streaming activity](../docs/images/streaming-activity.png)
 
 ## Key Files
 
