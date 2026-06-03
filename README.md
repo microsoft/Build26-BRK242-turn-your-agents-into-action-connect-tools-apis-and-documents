@@ -15,7 +15,7 @@ The two product pillars of this session — and where to dive deeper:
 | # | Pillar | What you'll learn | Where to go |
 |---|---|---|---|
 | 1 | **🧰 Toolbox** | Bundle every tool an agent needs (MCP, A2A, OpenAPI, connectors, built-ins) behind one governed endpoint that any framework can call. | [What is a Toolbox](#what-is-a-toolbox) · [Fibey App Toolbox sample](docs/Fibey-App-Toolbox.md) |
-| 2 | **📄 Azure Content Understanding in Foundry Tools** | Turn messy, multimodal content (PDFs, images, audio, video, Office docs) into structured, agent-ready output — building on the foundation of **Azure Document Intelligence**. | [What is Content Understanding](#what-is-content-understanding) · [Content Understanding deep-dive](docs/content-understanding/README.md) · [Try Content Understanding in Foundry quickstart](docs/content-understanding/try-in-foundry.md) |
+| 2 | **📄 Azure Content Understanding in Foundry Tools** | Turn messy, multimodal content (PDFs, images, audio, video, Office docs) into structured, agent-ready output — building on the foundation of **Azure Document Intelligence**. | [What is Content Understanding](#what-is-content-understanding) · [Fiberly demo with Content Understanding integrated (fiberly-agent-cu repo)](https://github.com/jfilcik/fiberly-agent-cu) |
 
 **Other sections:** [Session Description](#session-description) · [Learning Outcomes](#-learning-outcomes) · [Getting Started](#-getting-started) · [Keep Learning with Copilot](#-keep-learning-with-copilot) · [Technologies Used](#-technologies-used) · [Resources](#-resources-and-next-steps) · [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) · [Content Owners](#content-owners)
 
@@ -57,7 +57,7 @@ Toolbox bundles everything an agent needs into a reusable package—delivered th
 
 > **Built on the foundation of Azure Document Intelligence.** Azure Content Understanding brings together Document Intelligence's industry-leading OCR, layout, and table-extraction technology — refined over many years — and extends it with LLM-powered multimodal capabilities across audio, video, and image. If you've trusted Document Intelligence for documents, Content Understanding is the natural next step: the same proven engine, now with one schema-driven API for every modality. Document Intelligence remains GA — there's no forced migration; new content-to-JSON projects should start with Content Understanding.
 
-🚀 **Main demo CTA:** Check out the [Fiberly demo with Content Understanding integrated](https://github.com/jfilcik/fiberly-agent-cu) to see these patterns in an end-to-end agent experience.
+🚀 **Deep Dive:** Check out the [Fiberly demo with Content Understanding integrated (fiberly-agent-cu repo)](https://github.com/jfilcik/fiberly-agent-cu) to see these patterns in an end-to-end agent experience.
 
 Content Understanding helps agents with stronger grounding, real-time context, and business-ready extraction:
 
