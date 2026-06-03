@@ -61,9 +61,9 @@ Toolbox bundles everything an agent needs into a reusable package—delivered th
 
 Content Understanding helps agents with stronger grounding, real-time context, and business-ready extraction:
 
-- **Better grounding for RAG** — with Foundry IQ on standard, Content Understanding parses PDFs at index time, preserving structure like tables, headings, and figures.
+- **Better grounding for RAG** — with Foundry IQ as standard, Content Understanding parses PDFs at index time, preserving structure like tables, headings, and figures.
 - **Real-time context provider** — parses incoming files as the agent runs, keeps structure intact for more accurate answers, and supports a wider range of file types.
-- **Business-specific extraction** — uses analyzers you define for target document types (for example, work orders) so files can be classified, routed, and parsed for the exact values you need.
+- **Business-specific extraction** — uses analyzers you define for target document types (for example, invoices, work orders, or contracts) so files can be classified, routed, and parsed for the exact values you need.
 
 A tool lets an agent take action; Content Understanding provides the context behind that action with minimal configuration and at agent scale.
 
